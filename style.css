@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    color: #0ef;
+    align-items: center;
+    text-align: center;
+    margin: 300px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px white;
+}
+
+.container h1 {
+    padding: 30px;
+    font-size: 50px;
+}
+
+#guess {
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px;
+    width: 185px;
+    margin-right: 10;
+    outline: none;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 0 10px white
+}
+
+button {
+
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px;
+    margin-left: 0;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 0 0 10px white
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px;
+}
+
+hr {
+    width: 479px;
+    margin-left: 160px;
+    margin-bottom: 60px;
+
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 0 10px white;
+
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    #guess {
+        width: 150px;
+        padding: 10px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+
+    hr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    #guess {
+        width: 120px;
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+}
